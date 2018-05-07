@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B20802F208EB861002BE05B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B20802D208EB860002BE05B /* Model.xcdatamodeld */; };
 		3B3BC69B207B632C000C52BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3BC69A207B632C000C52BF /* AppDelegate.swift */; };
 		3B3BC69D207B632C000C52BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3BC69C207B632C000C52BF /* ViewController.swift */; };
 		3B3BC6A0207B632C000C52BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3BC69E207B632C000C52BF /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B20802E208EB861002BE05B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		3B3BC697207B632C000C52BF /* UNUserNotification-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UNUserNotification-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3BC69A207B632C000C52BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B3BC69C207B632C000C52BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				3B3BC69C207B632C000C52BF /* ViewController.swift */,
 				3B3BC69E207B632C000C52BF /* Main.storyboard */,
 				3B3BC6A1207B632C000C52BF /* Assets.xcassets */,
+				3B20802D208EB860002BE05B /* Model.xcdatamodeld */,
 				3B3BC6A3207B632C000C52BF /* LaunchScreen.storyboard */,
 				3B3BC6A6207B632C000C52BF /* Info.plist */,
 			);
@@ -138,6 +141,7 @@
 			files = (
 				3B3BC69D207B632C000C52BF /* ViewController.swift in Sources */,
 				3B3BC69B207B632C000C52BF /* AppDelegate.swift in Sources */,
+				3B20802F208EB861002BE05B /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +326,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B20802D208EB860002BE05B /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B20802E208EB861002BE05B /* Model.xcdatamodel */,
+			);
+			currentVersion = 3B20802E208EB861002BE05B /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3B3BC68F207B632C000C52BF /* Project object */;
 }
