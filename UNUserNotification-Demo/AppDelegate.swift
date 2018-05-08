@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         let center = UNUserNotificationCenter.current()
         center.requestAuthorization(options: [.alert, .badge]) { (granted, error) in
             if let error = error {
-                print("Some unknown error happend")
+                print("Some unknown error happend:\(error.localizedDescription)")
             } else if granted == false {
                 print("User does not allow notification")
             }
